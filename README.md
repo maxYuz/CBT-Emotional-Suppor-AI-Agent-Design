@@ -139,7 +139,7 @@ This document describes the architecture of the Emotion-Aware AI Agent.
    - Improve realism of AI output with controlled pauses  
    - 可通过断句和停顿处理，让 AI 回复更自然、像真人
 
-5. **Response Generation / 响应生成  
+5. Response Generation / 响应生成  
    - Generate the final AI message to the user  
    - 输出最终响应，并更新阶段状态
 
