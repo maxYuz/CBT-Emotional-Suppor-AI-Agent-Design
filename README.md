@@ -192,9 +192,9 @@ This creates a feedback loop that allows the AI agent to gradually improve its r
 - Emotion expression and journaling  
 
 Example input:  
-> "I feel like I can't do anything right recently"  
-> "Work has been overwhelming lately"  
-> "I keep thinking about past mistakes"  
+> "我觉得我现在真的很糟糕"  
+> "能给我一些情绪开导技巧吗"  
+> "我爸妈总是在把所有事怪罪于我"  
 
 The agent guides users through multi-turn, structured, stage-based dialogue for emotional support and cognitive reflection.  
 （用户通过多轮阶段化对话，进行情绪梳理、认知反思和心理辅助）
