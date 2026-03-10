@@ -1,4 +1,4 @@
-# CBT-AI-Emotional-Suppor-Agent
+# CBT-AI-Emotional-Support-Agent
 # 基于CBT 情绪感支持 AI Agent
 
 An AI emotional support agent designed based on Cognitive Behavioral Therapy (CBT) principles.  
