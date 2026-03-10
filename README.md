@@ -12,8 +12,10 @@ It emphasizes multi-turn dialogue, relationship building, and interaction flows 
 
 This project designs an AI agent for psychological growth and emotional support using CBT principles.  
 It leverages prompt engineering and multi-node workflow architecture to guide interactions in a structured, template-based way.  
+The system also includes a response evaluation module that reviews AI outputs and creates a feedback loop for improving future interactions.
 -本项目是一个基于认知行为疗法（Cognitive Behavioral Therapy, CBT）-心理咨询理论方法设计的 AI 心理成长、情绪支持智能体。通过将心理辅导应用于语言大模型，以流程模版化、结构化与类真实心理互助的对话，帮助用户进行日常的情绪觉察与认知反思。
 该智能体通过Prompt Engineering + 多节点Workflow 工作流架构进行构建，使AI在对话过程中能够按照一定的心理支持逻辑进行互动，而不是简单的随机聊天。
+系统还包含一个 AI 回复评估模块，对生成回复进行评分，并形成反馈回路，用于持续优化后续对话质量。
 
 The AI agent guides users through four progressive stages based on relational intimacy:
 在对话过程中，智能体根据亲密度判定会逐步引导用户进入到四个阶段：
@@ -105,6 +107,17 @@ b.Workflow 对话控制
 # 4 Agent Architecture
 # 智能体架构设计
 
+#  系统架构
+
+Below is the workflow diagram of the AI Agent:  
+（以下为 AI Agent 工作流示意图）
+
+
+<p align="center">
+  <img src="workflow.png" width="800">
+</p>
+
+
 This document describes the architecture of the Emotion-Aware AI Agent.  
 （本文档说明情绪感知 AI Agent 的架构设计）
 
@@ -143,17 +156,31 @@ This document describes the architecture of the Emotion-Aware AI Agent.
    - Generate the final AI message to the user  
    - 输出最终响应，并更新阶段状态
 
+6. Response Review Model / AI 回复评估模型  
+   - Evaluate the generated response using an internal review model  
+   - 对 AI 生成的回复进行质量评估与审核  
+
+Evaluation dimensions include:  
+评估维度包括：
+
+- Emotional empathy（共情程度）  
+- Dialogue coherence（对话连贯性）  
+- Psychological support quality（心理支持质量）  
+- Safety compliance（安全与伦理规则）
+
+The evaluation result is stored in the memory system.
+
+评估结果会被记录到长期记忆系统，用于优化未来的对话策略。
+
+This creates a feedback loop that allows the AI agent to gradually improve its response quality during long conversations.
+
+该机制形成一个反馈回路，使 AI 在长期对话中逐步优化回复质量。
+
 ---
 
 > Modular design allows updating prompts, memory rules, or pause handling independently.  
 > （模块化设计，可独立更新 Prompt、记忆规则或停顿处理逻辑）
 
-#  系统架构
-
-Below is the workflow diagram of the AI Agent:  
-（以下为 AI Agent 工作流示意图）
-
-![Workflow Diagram](images/workflow.png)
 ---
 
 # 6. Use Cases
