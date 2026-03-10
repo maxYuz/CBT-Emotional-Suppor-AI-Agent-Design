@@ -148,25 +148,7 @@ This document describes the architecture of the Emotion-Aware AI Agent.
 > Modular design allows updating prompts, memory rules, or pause handling independently.  
 > （模块化设计，可独立更新 Prompt、记忆规则或停顿处理逻辑）
 
-Emotion-Aware-AI-Agent/
-├── README.md
-├── prompt_architecture/
-│   ├── stage1_engagement.md
-│   ├── stage2_exploration.md
-│   ├── stage3_intervention.md
-│   ├── stage4_closure.md
-│   └── memory_retrieval_rules.md  
-├── agent_workflow/
-│   └── workflow_diagram.md
-├── system_design/
-│   └── agent_architecture.md     
-├── conversation_examples/
-└── output_processing/
-    └── sentence_pause_handling.md
-    
-
 ---
-
 
 # 6. Use Cases
 # 6. 项目使用场景
