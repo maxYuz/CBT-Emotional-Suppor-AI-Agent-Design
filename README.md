@@ -148,6 +148,12 @@ This document describes the architecture of the Emotion-Aware AI Agent.
 > Modular design allows updating prompts, memory rules, or pause handling independently.  
 > （模块化设计，可独立更新 Prompt、记忆规则或停顿处理逻辑）
 
+#  系统架构
+
+Below is the workflow diagram of the AI Agent:  
+（以下为 AI Agent 工作流示意图）
+
+![Workflow Diagram](images/workflow.png)
 ---
 
 # 6. Use Cases
