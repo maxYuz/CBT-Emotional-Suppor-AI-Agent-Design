@@ -102,6 +102,8 @@ This feedback can influence future dialogue responses and improve interaction qu
 
 这些反馈会影响后续对话，使模型逐步优化互动质量。
 
+---
+
 ### 7. Sentence Segmentation & Pause Handling
 断句与停顿处理
 
