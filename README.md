@@ -145,25 +145,6 @@ This document describes the architecture of the Emotion-Aware AI Agent.
 
 ---
 
-## Workflow Diagram
-## 流程图示意
-User Input
-↓
-Emotion Detection & State Analysis
-↓
-Memory Storage & Retrieval
-↓
-Stage Classification
-↓
-Prompt Selection & Response Strategy
-↓
-Sentence Segmentation & Pause Handling
-↓
-Response Generation
-↓
-User Output
-
-
 > Modular design allows updating prompts, memory rules, or pause handling independently.  
 > （模块化设计，可独立更新 Prompt、记忆规则或停顿处理逻辑）
 
