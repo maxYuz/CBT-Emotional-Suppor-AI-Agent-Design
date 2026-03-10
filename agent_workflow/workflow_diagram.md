@@ -3,7 +3,7 @@
 
 This document explains the workflow of the Emotion-Aware AI Agent.
 
-（本文档说明 Emotion-Aware AI Agent 的整体工作流程设计）
+（本文档说明 CBT-AI-Emotional-Support-Agen 的整体工作流程设计）
 
 ---
 
